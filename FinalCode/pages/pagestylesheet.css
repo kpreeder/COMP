@@ -1,0 +1,424 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #e2e0d5;
+}
+.mainicon {
+    margin-top: 1.8%;
+    margin-left: 3%;
+}
+.mainheader {
+    display: flex;
+    justify-content: space-between;
+    background-color: #d8b26e;
+    color: #222c3c;
+    border-style: solid;
+    border-color: #222c3c;
+}
+.toptwobuttons {
+    list-style: none;
+    width: 100px;
+}
+.topbuttons {
+    margin-right: 8%;
+}
+.ECMA {
+    margin-left: 10%;
+    margin-top: 1.1%;
+    transform:scale(2.1,1);
+}
+.title {
+    font-size: 2.5rem;
+}
+.toplinks {
+    font-size: .8rem;
+    color: #e2e0d5;
+    border-style: solid;
+    border-color: #222c3c;
+    background-color: #222c3c;
+    padding: 4%;
+    border-radius: 5px;
+    transition: all 250ms ease-in-out;
+}
+.toplinks:hover {
+    color: #222c3c;
+     background-color: #999ea7;
+     text-decoration: none;
+     border-color: #999ea7;
+}
+.topbutton1 {
+    margin-top: 10%;
+    margin-bottom: 14%;
+}
+.topbutton2 {
+    margin-top: 15%;
+    margin-bottom: 0;
+}
+.navcontainer {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin: 0;
+    text-align: center;
+    border-bottom: 2px solid #222c3c;
+}
+.nav-link {
+    color: #222c3c;
+    font-size: .8rem;
+    border-color: #222c3c;
+    transition: all 300ms ease-in-out;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.nav-link:hover {
+    transform:scale(1.2);
+    color: #999ea7;
+    text-decoration: none;
+}
+.nav-link:active {
+    color: red;
+}
+.nav-item1 {
+    width: 100%;
+}
+.hiddennav {
+    display: none;
+}
+.currentexhibition {
+    margin-left: 8%;
+    margin-top: 2%;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.upcomingexhibition{
+    margin-left: 8%;
+    margin-top: 2%;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.exhibition {
+    margin-left: 8%;
+    margin-top: 2%;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.currentartcontainer {
+    display: flex;
+    justify-content: space-around;
+}
+.card-body {
+    padding: 3%;
+    background-color: #d8b26e;
+    color: #222c3c;
+    text-align: center;
+    border-radius: 4px;
+    line-height: 14px;
+}
+.card-text {
+    font-size: .8rem;
+}
+.imagecard {
+    border-style: solid;
+    border-color: #222c3c;
+    border-width: 4px;
+    margin-top: 2%;
+    margin-bottom: 6%;
+    height: 100%;
+    border-radius: 8px;
+}
+.visitmainrow {
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 3%;
+}
+.visitinfo {
+    width: 40%;
+    margin-top: 1%;
+}
+.planyourvisit{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.generaladmission {
+    font-size: 1.1rem;
+}
+.transportationandparking {
+    font-size: 1.1rem;
+}
+.museamimage {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    margin-top: 7%;
+    background-image: url(https://cdn.cnn.com/cnnnext/dam/assets/140822165102-8small-museum-bainbridge-horizontal-large-gallery.jpeg);
+    background-size: cover;
+    transition: all 250ms ease-in-out;
+}
+.museamimage:hover {
+    transform:scale(1.3);
+}
+.directionimage {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    margin-bottom: 20%;
+    background-image: url(https://cloud.google.com/maps-platform/images/maps-customizations.jpg);
+    background-size: cover;
+    transition: all 250ms ease-in-out;
+}
+.directionimage:hover {
+    transform:scale(1.3);
+}
+.visitlowerrow {
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+.directioncontainer {
+    width: 40%;
+}
+.contactimage {
+    width: 400px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url(https://assets.simpleviewinc.com/simpleview/image/fetch/c_fill,g_auto,h_500,q_50,w_1400/https://assets.simpleviewinc.com/simpleview/image/upload/crm/neworleans/192_1273_1265965e-5056-b365-abed267b4a0212f9.jpg);
+    background-size: cover;
+    border: 4px solid #222c3c;
+}
+.contactus {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.contactcontainer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+.aboutinfo {
+    margin: 0 auto;
+    width: 60%;
+}
+.aboutus {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.staffimagecontainer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.staffimage1{
+    width: 100px;
+    height: 100px;
+    background-image: url(https://cmoa.org/wp-content/uploads/2020/02/eric-crosby-2-600x400.jpg);
+    background-size: cover;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #b99b7d;
+}
+.staffimage2{
+    width: 100px;
+    height: 100px;
+    background-image: url(https://cmoa.org/wp-content/uploads/2020/02/stefanie-mohr-600x400.jpg);
+    background-size: cover;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #b99b7d;
+}
+.staffimage3{
+    width: 100px;
+    height: 100px;
+    background-image: url(https://www.hamilton.edu/wellinassets/images/ChrisHarrison2019Headshot_Website.jpg);
+    background-size: cover;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #b99b7d;
+}
+.staffimage4{
+    width: 100px;
+    height: 100px;
+    background-image: url(https://www.aam-us.org/wp-content/uploads/2019/11/MMorrisHeadshot.jpg);
+    background-size: cover;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #b99b7d;
+}
+.staffimage5{
+    width: 100px;
+    height: 100px;
+    background-image: url(https://www.toledoblade.com/image/2020/01/30/460x_a4-5_cTC/LEVINE31.jpg);
+    background-size: cover;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #b99b7d;
+}
+.staffimage6{
+    width: 100px;
+    height: 100px;
+    background-image: url(https://news.artnet.com/app/news-upload/2016/11/aaron_seeto_headshot_photo_by_chlo__callistemon-1024x681.jpg);
+    background-size: cover;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #b99b7d;
+}
+.emailform {
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    padding: 1%;
+    background-color: #b69b7d;
+    border-width: 3px;
+    color: #222c3c;
+    width: 60%;
+    margin-left: 8%;
+}
+.footerrow {
+    margin-top: 1%;
+    display: flex;
+    margin-bottom: 1%;
+}
+.visitfooterrow {
+    margin-top: 5%;
+    display: flex;
+    margin-bottom: 1%;
+}
+.emailbutton {
+    margin-left: 20%;
+    background-color: #222c3c;
+    color: #e2e0d5;
+}
+.emailbutton:hover {
+    background-color: #e2e0d5;
+    color: #222c3c;
+    border: 1px solid #222c3c;
+}
+.emailbutton:active {
+    color: red;
+}
+.form-group {
+    width: 40%;
+}
+.form-control {
+    background-color: #e2e0d5;
+}
+.formtext {
+    font-size: 1rem;
+    margin-bottom: 1%;
+}
+.hourscontainer {
+    width: 50%;
+}
+@media screen and (max-width: 780px) {
+    .staffrow {
+        margin-top: 4%;
+        margin: 0 auto;
+        margin-left: 14%;
+    }
+    .staffimagecontainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .contactcontainer {
+        flex-direction: column;
+    }
+    .contactinfo {
+        margin: 0 auto;
+        width: 60%;
+    }
+    .contactimage {
+        margin: 0 auto;
+        margin-top: 5%;
+    }
+}
+@media screen and (max-width: 630px) {
+    .visitmainrow {
+        display: flex;
+        flex-direction: column;
+        margin-left: 18%;
+    }
+    .staffrow {
+        margin-left: 10%;
+    }
+    .visitinfo {
+        width: 80%;
+    }
+    .visitlowerrow {
+        display: flex;
+        flex-direction: column;
+        margin-left: 18%;
+    }
+    .directioncontainer {
+        width: 80%;
+        margin-bottom: 10%;
+    }
+    .directionimage {
+        margin-top: 9%;
+        margin-bottom: 12%;
+    }
+    .museamimage {
+        margin-top: 11%;
+    }
+}
+@media screen and (max-width: 540px) {
+.hiddennav {
+    display: block;
+    list-style: none;
+    width: 21%;
+    margin-top: 4%;
+}
+.dropdown-menu {
+    background-color: #e2e0d5;
+}
+.dropdown-item {
+     transition: all 300ms ease-in-out;
+}
+.dropdown-item:hover {
+    transform:scale(1.04);
+    background-color: none;
+    background-color: #e2e0d5;
+    color: #999ea7;
+}
+.toplinks {
+    margin-left: 30%;
+}
+.currentexhibition {
+    margin-bottom: 3%;
+}
+.upcomingexhibition {
+    margin-bottom: 3%;
+}
+.navcontainer {
+    display: none;
+}
+.currentartcontainer{
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.imagecard {
+    margin: 0 auto;
+    margin-bottom: 15%;
+}
+.footerrow {
+    flex-direction: column;
+}
+.emailform {
+    margin: 0 auto;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.hourscontainer {
+    margin: 0 auto;
+    width: 40%;
+}
+.form-group {
+    width: 100%;
+}
+.emailbutton {
+    margin-left: 28%;
+}
+}
